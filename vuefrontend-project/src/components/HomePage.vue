@@ -8,7 +8,7 @@
   
   <script>
   export default {
-    name: "Homepage",
+    name: "HomePage", // Corrected component name to multi-word
   };
   </script>
   

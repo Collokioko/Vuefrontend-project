@@ -5,21 +5,21 @@
       <div class="collapse navbar-collapse">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
-            <a class="nav-link" href="#/">Home</a>
+            <router-link class="nav-link" to="/">Home</router-link> <!-- Use router-link -->
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#/about">About Us</a>
+            <router-link class="nav-link" to="/about">About Us</router-link> <!-- Use router-link -->
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#/services">Services</a>
+            <router-link class="nav-link" to="/services">Services</router-link> <!-- Use router-link -->
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#/contact">Contact Us</a>
+            <router-link class="nav-link" to="/contact">Contact Us</router-link> <!-- Use router-link -->
           </li>
         </ul>
       </div>
     </nav>
-    <router-view></router-view>
+    <router-view></router-view> <!-- This is where routed components will be displayed -->
   </div>
 </template>
 
