@@ -22,7 +22,7 @@
     name: "AboutUs",
     data() {
       return {
-        carwashImage: require('@/assets/carwash2.jpg'), // Make sure this image exists in the assets folder
+        carwashImage: require('@/assets/carwash2.jpg'), 
       };
     }
   };

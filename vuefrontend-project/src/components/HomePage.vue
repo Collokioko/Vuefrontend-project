@@ -18,7 +18,7 @@
     name: "HomePage",
     data() {
       return {
-        carwashImage: require('@/assets/carwash1.jpg'), // Adjust file extension if necessary
+        carwashImage: require('@/assets/carwash1.jpg'), 
       };
     }
   };
@@ -37,7 +37,7 @@
     position: relative;
     display: inline-block;
     width: 100%;
-    max-width: 600px; /* Adjust as needed */
+    max-width: 600px; 
   }
   
   img {
